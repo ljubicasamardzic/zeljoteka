@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+html {
+    font-size: 10px;
+}
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+.forma {
+    margin: 0 auto;
+    margin-left: 6rem;
+}
+.w-full {
+    width: 110% !important;
+}
+.kurziv {
+    font-family: "La Belle Aurore";
+}
+.glavni-naslov {
+    font-size: 5.5rem;
+    margin-top: 6rem;
+}
+.manji-tekst {
+    font-size: 3rem;
+}
+.form-control {
+    font-size: 1.4rem;
+}
+.najmanji-tekst {
+    font-size: 2.2rem;
+}
+.div-poruka {
+    margin: 12rem 0 0 8rem;
+}
+.animacija {
+    animation: moveInLeft 1s ease-in-out;
+}
+.animacija-tekst {
+    animation: tekst-animacija 1s ease-out;
+}
+@keyframes tekst-animacija {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 1.6rem;
+}
+td, th {
+    border: 1px black solid;
+}
+.background-img {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.santa-styling {
+    width: 90% !important;
+    height: 70vh;
+}
+@media (max-width: 768px) {
+    .santa-styling {
+        width: 70% !important;
+        height: 40vh;
+    }
+    .glavni-naslov {
+        font-size: 3.5rem;
+    }
+    .manji-tekst {
+        font-size: 2rem;
+    }
+    .forma {
+        margin: 0 auto;
+    }
+    .najmanji-tekst {
+        font-size: 2rem;
+    }
+    .w-75 {
+        width: 85% !important;
+    }
+    .glavni-naslov {
+        margin: 0;
+    }
+}
+.btn-red {
+    background-color: #800811;
+    color: #fff;
+    padding: 1rem 4em;
+    border-radius: 30px;
+}
+.btn-red:hover {
+    background-color: #fff;
+    color: #800811;
+    border: 2px solid #800811;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px #800811;
+}
+#btn-div {
+    margin-top: 20vh;
+}
+.btn-intro {
+    animation-delay: 1s;
+    animation: moveInRight 1s ease-out;
+
+}
+@keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10rem); }
+    80% {
+      transform: translateX(-1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); 
+    } 
+}
+.uvodni-tekst {
+    animation: moveInRight 1s ease-out;
+}
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); }
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+
+.table-div th {
+    background-color:rgba(204, 82, 82, 0.938);
+}
+.table-div td {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.table>:not(caption)>*>* {
+    padding: 10px;
+}
+.natpis-zelje {
+    color: #fff; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.sidebar {
+    margin-top: 12rem;
+}
+.sidebar-div {
+    background-color:#fff;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    font-weight: 700;
+    padding: 40px 15px;
+}
