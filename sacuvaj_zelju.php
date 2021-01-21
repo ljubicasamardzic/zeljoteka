@@ -1,7 +1,6 @@
 <?php
 // Preko sesije se šalje ime osobe i pol, kako bi se poruka personalizovala u zelja_poslata.php
-// Za muški pol, poruka će počinjati sa "dragi", za ženski sa "draga"
-//
+// Za muški pol, poruka će počinjati sa "dragi", za ženski sa "draga" i uz to ime osobe
 
     session_start();
     
